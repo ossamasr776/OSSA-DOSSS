@@ -23,8 +23,6 @@ slowtype("""\033[;33;1m
 /  {}  \{ {__  { {__   / {} \ 
 \      /.-._} }.-._} }/  /\  \
  `----' `----' `----' `-'  `-'
- """,4)
-slowtype("""\033[;36;1m this is stronger tool to do ddos attak""",)
 slowtype('_________________________________________',)
 import socket
 print("")
