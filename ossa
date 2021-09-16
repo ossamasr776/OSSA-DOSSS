@@ -10,6 +10,14 @@ G = "\033[32m"    # Green
 W = "\033[0m"     # White
 R = "\033[31m"    # Red
 
+import sys,time,socket,os
+os.system('clear')
+def slowtype(text,sec):
+    for d in text + "\n":
+        sys.stdout.write(d)
+        sys.stdout.flush()
+        time.sleep(sec/100)
+        #############
 slowtype("""\033[;33;1m  
  .----.  .----. .----.  .--.  
 /  {}  \{ {__  { {__   / {} \ 
